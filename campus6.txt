@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<title>Wentworth Campus</title>
+<body bgcolor="#f4e8ab">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+ul {
+    list-style-type: none;
+    border: 3px solid #00070E;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CCAC0E;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  background-image: url("https://wentworthds.hobsonsradius.com/crm/viewImage?id=805000000106013&fileName=%2FApplication+header-01.png");
+  height: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+div.gallery {
+    border: 3px solid #777;
+}
+
+div.gallery:hover {
+    border: 3px solid #DE202C;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1500px) {
+    .responsive {
+        width: 100%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="campus1.html">Welcome</a></li>
+  <li><a href="campus2.html">Multipurpose Academic Building</a></li>
+  <li><a href="campus3.html">Center for Academic Excellence</a></li>
+  <li><a href="campus4.html">Beatty Cafeteria</a></li>
+  <li><a href="campus5.html">Sweeney Field</a></li>
+  <li><a href="campus6.html">Student Service Center</a></li>
+  <li><a href="campus7.html">Learning Facilities</a></li>
+  <li><a href="campus8.html">Campus8</a></li>
+  <li><a href="campus9.html">Campus9</a></li>
+  <li><a href="campus10.html">Campus10</a></li>
+</ul>
+
+<div class="hero-image">
+</div>
+
+<center><h1>Student Service Center</h1></center>
+
+<div class="responsive">
+  <div class="gallery">
+<center>
+    <a target="_blank" href="ssc.jpg">
+      <img src="ssc.jpg" alt="SSC">
+    </a>
+    <div class="desc">
+The Student Service Center has resources for Billing and Financial Aid, Registration and Student Records, and International Students.
+</div> 
+</center> 
+</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <center><h3><p><b>About</b></p></h3></center>
+<ul>
+The Student Service Center is an administrative hub at Wentworth, providing the offices, services, resources, and staff needed to ensure that students can take care of business efficiently. 
+<br>The Student Service Center processes financial aid applications, provides financial services for students making payments, coordinates registration processes, and provides assistance to international students, veterans, and students seeking employment on campus.
+</ul>
+</div>
+
+</body>
+</html>

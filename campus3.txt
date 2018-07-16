@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<title>Wentworth Campus</title>
+<body bgcolor="#f4e8ab">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+ul {
+    list-style-type: none;
+    border: 3px solid #00070E;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CCAC0E;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  background-image: url("https://wentworthds.hobsonsradius.com/crm/viewImage?id=805000000106013&fileName=%2FApplication+header-01.png");
+  height: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+div.gallery {
+    border: 3px solid #777;
+}
+
+div.gallery:hover {
+    border: 3px solid #DE202C;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 49.99999%;
+}
+
+@media only screen and (max-width: 1500px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="campus1.html">Welcome</a></li>
+  <li><a href="campus2.html">Multipurpose Academic Building</a></li>
+  <li><a href="campus3.html">Center for Academic Excellence</a></li>
+  <li><a href="campus4.html">Beatty Cafeteria</a></li>
+  <li><a href="campus5.html">Sweeney Field</a></li>
+  <li><a href="campus6.html">Student Service Center</a></li>
+  <li><a href="campus7.html">Learning Facilities</a></li>
+  <li><a href="campus8.html">Campus8</a></li>
+  <li><a href="campus9.html">Campus9</a></li>
+  <li><a href="campus10.html">Campus10</a></li>
+</ul>
+
+<div class="hero-image">
+</div>
+
+<center><h1>Center for Academic Excellence</h1></center>
+
+<div class="responsive">
+  <div class="gallery">
+<center>
+    <a target="_blank" href="cae1.jpg">
+      <img src="cae1.jpg" alt="CAE1">
+    </a>
+    <div class="desc"><b>Learning Labs:</b>
+<br>Learning Labs are tutor-led, faculty supported review sessions. Each week the faculty identify topics for extra review.  During the Learning Labs, tutors review the material in new and different ways. The first 45-60 minutes is spent reviewing this material and the last 30-45 minutes is spent in small groups working on homework with a tutor available for questions.  The content for each session is identical.</div> 
+ </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="cae2.jpg">
+      <img src="cae2.jpg" alt="CAE2">
+    </a>
+    <div class="desc"><b>Facilitated Study Groups:</b>
+<br>Facilitated Study Groups (FSG) are a great place to do your homework.  A faculty member and tutors are available to assist you if you need help.  Drop in as your schedule allows.  Come for an hour or come for the whole time for any class.</div>
+  </div>
+</div>
+</center>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <center><h3><p>The Center for Academic Excellence (CAE) is available to assist all Wentworth students with academic challenges in the areas of math, science, computer programs, technical courses specific to majors, and communications and writing. The CAE is a free resource for students looking to improve or maintain their academic standing. In this student-based learning environment, students can receive individual help with their studies, meet and work in study tables, or go online to find resources to assist them in meeting their goals for academic success.</p></h3></center>
+</div>
+
+</body>
+</html>

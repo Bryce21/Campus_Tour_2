@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<title>Wentworth Campus</title>
+<body bgcolor="#f4e8ab">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+ul {
+    list-style-type: none;
+    border: 3px solid #00070E;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CCAC0E;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  background-image: url("https://wentworthds.hobsonsradius.com/crm/viewImage?id=805000000106013&fileName=%2FApplication+header-01.png");
+  height: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+div.gallery {
+    border: 3px solid #777;
+}
+
+div.gallery:hover {
+    border: 3px solid #DE202C;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1500px) {
+    .responsive {
+        width: 100%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="campus1.html">Welcome</a></li>
+  <li><a href="campus2.html">Multipurpose Academic Building</a></li>
+  <li><a href="campus3.html">Center for Academic Excellence</a></li>
+  <li><a href="campus4.html">Beatty Cafeteria</a></li>
+  <li><a href="campus5.html">Sweeney Field</a></li>
+  <li><a href="campus6.html">Student Service Center</a></li>
+  <li><a href="campus7.html">Learning Facilities</a></li>
+  <li><a href="campus8.html">Campus8</a></li>
+  <li><a href="campus9.html">Campus9</a></li>
+  <li><a href="campus10.html">Campus10</a></li>
+</ul>
+
+<div class="hero-image">
+</div>
+
+<center><h1>Sweeney Field</h1></center>
+
+<div class="responsive">
+  <div class="gallery">
+<center>
+    <a target="_blank" href="Sweeney.jpg">
+      <img src="Sweeney.jpg" alt="sweeney">
+    </a>
+    <div class="desc">
+In August 1996, Wentworth's new athletic field, located directly across from Wentworth's front door, was completed. This synthetically surfaced, state-of-the-art field is the practice and contest site for varsity softball (played on Carr Diamond), soccer and lacrosse teams, as well as host to intramural programs. The field is lit so that competition can be held during both daylight and evening hours, reducing the amount of class time student-athletes could potentially miss. Since its opening in 1996, the field has gone through some upgrades, which have been beneficial to student-athletes and spectators.
+</div> 
+</center> 
+</div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <center><h3><p><b>History</b></p></h3></center>
+<ul>
+In 1998, the original, 12-foot fencing surrounding the perimeter of the field was raised to 20 feet
+<br>In 2000, portable fencing and dugout areas were added to Carr Diamond, giving the softball field much-needed definition
+<br>In 2001, a second phase of construction was completed, which included two team rooms, additional bleachers for soccer (increasing capacity), and a three-storied building containing a concession stand (first level), press box for soccer, softball, and lacrosse (second level), and a video platform (third level)
+<br>In 2002 new, more mobile soccer goals were purchased, making it easier to shorten the field for soccer practices as well as reducing time during field changeovers
+<br>In 2004, additional drains were installed, allowing the softball field to drain better after inclement weather
+<br>In 2007 a new, multi-sport scoreboard was installed
+<br>In 2012 the original AstroTurf surface was replaced with FieldTurf, in addition to improvements being made to drainage, boundary fencing, lighting, and containment netting
+</ul>
+</div>
+
+</body>
+</html>
